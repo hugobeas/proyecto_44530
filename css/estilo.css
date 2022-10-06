@@ -1,0 +1,81 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;500&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
+
+:root {
+    --primary: #26163f;
+    --secondary: #4B4453;
+    --light:#C4FCEF;
+    --accent: #4D8076;
+
+    --text-xxl: 4.8em; 
+    --text-xl: 3.6em; 
+    --text-lg: 3.2em; 
+    --text-md: 2.2em; 
+    --text-sm: 1.6em; 
+    --text-xs: 1.2em;
+
+    --sp-xxl: 12rem;
+    --sp-xl: 8rem;
+    --sp-lg: 5rem;
+    --sp-md: 3.2rem;
+    --sp-sm: 1.6rem;
+    --sp-xs: 0.8rem;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html {
+    font-family: 62.5%;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: var(--text-sm);
+    color: var(--secondary)
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    font-size: var(--text-sm);
+    text-decoration: none;
+    color: var(--primary)
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+header {
+    background-color: var(--secondary);
+    padding: var(--sp-sm);
+}
+
+.navbar .menu .menu__link {
+    color: var(--light);
+}
+
+.navbar .menu__link {
+    display: inline-block;
+}
+
+.navbar .menu {
+    display: inline-block;
+    padding: 30px;
+}
+
+.navbar .menu .menu__item {
+    display: inline-block;
+}
+
+.navbar .menu .menu__link{
+    size: 20px;
+    
+}
