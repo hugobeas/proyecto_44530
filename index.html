@@ -5,9 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto HB</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./CSS/estilo.css">
 </head>
-<body>
+<body >
+
     <header>
          <nav class="navbar container">
              <a class="navbar__link" href="index.html">
@@ -32,26 +34,38 @@
               </nav>
      </header>
     <main class="container">
-        <section id="banner">
-            <img src="./CSS/IMG/banner1.jpg" alt="">
-          </section>
-              
-           <section>
-              <h2> Bienvenidos</h2>
-           </section>
-      
-           <section>
-              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est non aliquid, reiciendis omnis consequatur veritatis voluptas ipsam soluta voluptate nesciunt, eligendi excepturi, ad velit voluptatibus tempore expedita. Sed.</p>
-           </section>
-           <section id="banner2">
-                  <img src="./CSS/IMG/banner2.jpg" alt="">
-           </section>
-           <h3>Otro H3</h3>
-           <section id="banner3">
-               <img src="./CSS/IMG/banner3.jpg" alt="">
+        <section>
+            <img src="./css/IMG/banner1.jpg" class="img-fluid" alt="...">
           </section>
           <section>
-             
+            <h1 class="display-1">Bienvenidos</h1>
+          </section>
+      
+           <section class="row">
+              <article class="col">
+                <h3>TITLE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est non aliquid, reiciendis omnis consequatur veritatis voluptas ipsam soluta voluptate nesciunt, eligendi excepturi, ad velit voluptatibus tempore expedita. Sed.</p>
+              </article>
+              <article class="col">
+                <h3>TITLE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est non aliquid, reiciendis omnis consequatur veritatis voluptas ipsam soluta voluptate nesciunt, eligendi excepturi, ad velit voluptatibus tempore expedita. Sed.</p>
+              </article>
+              <article class="col">
+                <h3>TITLE</h3>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est non aliquid, reiciendis omnis consequatur veritatis voluptas ipsam soluta voluptate nesciunt, eligendi excepturi, ad velit voluptatibus tempore expedita. Sed.</p>
+              </article>
+           </section>
+           <section id="banner2">
+            <img src="./css/IMG/banner2.jpg" class="img-fluid" alt="...">
+           </section>
+           <h2>
+            Lo que nos vio
+            <small class="text-muted">crecer como full stack developers</small>
+          </h2>
+           <section id="banner3">
+               <img src="./css/IMG/banner3.jpg" class="img-fluid" alt="...">
+          </section>
+          <section>
               <article>
                   <h3>Otro título</h3>
                   <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Error totam at eaque nostrum asperiores veritatis maiores. Cumque veritatis unde, nobis sed maiores ad saepe iste illum, natus, in doloremque atque.</p>
@@ -63,9 +77,11 @@
               </article>
           </section>
     </main>
+    
    
-        <footer>
+        <footer class="container">
             <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Alias explicabo inventore velit maiores perspiciatis dolores nesciunt corporis, accusamus, provident tempora accusantium? Fugit consectetur illo minus rem dolor quae optio aperiam.</p>
         </footer>
+        <script src="./css/JS/bootstrap.bundle.js"></script>
 </body>
 </html>
