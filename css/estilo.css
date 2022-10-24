@@ -2,10 +2,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Serif+Georgian:wght@400;500&family=Roboto:ital,wght@0,100;0,400;1,100&display=swap');
 
 :root {
-    --primary: #26163f;
-    --secondary: #4B4453;
-    --light:#f2f3f3;
-    --accent: #202de3;
+    --primary: #03033e;
+    --secondary: #fcfcfc;
+    --light:#e6e6e6;
+    --accent: #004AAD;
 
     --text-xxl: 4.8em; 
     --text-xl: 3.6em; 
@@ -35,7 +35,7 @@ html {
 body {
     font-family: 'Roboto', sans-serif;
     font-size: var(--text-sm);
-    color: var(--secondary)
+    color: var(--primary)
 }
 
 ul {
@@ -48,9 +48,19 @@ a {
     text-decoration: none;
     color: var(--primary)
 }
+
+/*NAVBAR*/
+
+header {
+    background-color: var(--secondary);
+    padding: var(--sp-xs);
+}
+  
+
 .navbar {
     display: flex;
     justify-content: space-between;
+
 }
 .navbar .navbar__link {
     min-width: 180px;
@@ -65,20 +75,15 @@ a {
 .menu .menu__link {
     padding: var(--sp-xs);
     transition: all .3s ease-in-out;
+    transition-delay: .1s;
 }
 .menu .menu__link:hover {
-    background-color: var(--light);
+    background-color: var(--accent);
     color: var(--secondary);
 }
 
-
-header {
-    background-color: var(--secondary);
-    padding: var(--sp-sm);
-}
-
 .navbar .menu .menu__link {
-    color: var(--light);
+    color: var(--primary);
 }
 
 .navbar .menu__link {
@@ -99,7 +104,106 @@ header {
     
 }
 
+/*INDEX*/
+.intro {
+    font-size: var(--text-xxl);
+    text-align: center;
+    padding: 40px;
+}
+
+
+.banner1 {
+width: 100%;
+height: 100vh;
+background-image: url(../css/IMG/banner1.jpg);
+background-size: cover;
+background-position: center;
+background-position-x: center;
+background-position-y: center;
+background-attachment: fixed;
+}
+@media screen and (max-width:576px) {
+    .banner1 {
+      background-image: url(../css/IMG/banner1_1.png);
+    }
+}
+
 #banner2 {
     display: grid;
-    place-items: center;
+    grid-template-columns: repeat(12, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    background-color: var(--light);
+    
 }
+
+    .img__2 {
+        display: grid;
+        padding: 1em;
+        grid-column: span 6;
+        grid-row: span 6;
+    }
+
+
+
+    @media screen and (max-width:576px) {
+        .img__2{
+            display: grid;
+            padding: 1em;
+            grid-column: span 6;
+            grid-row: span 6;
+            background-image: url(../css/IMG/banner2_2.png);
+        }  
+    }
+    @media screen and (max-width:576px) {
+        #segunda__home{
+            display: none;
+        }    
+
+}
+    
+    .text2 {
+        display: grid;
+        padding: 1em;
+        grid-column: span 6;
+        grid-row: span 6;
+        align-items: center;
+       
+    }
+    .h2__2 {
+        display: grid;
+        
+    }
+
+
+    /*NOSOTROS*/
+
+    .quienes_somos {
+        background-color: var(--light);
+        padding: 2em;
+    }
+    .banner__nosotros {
+        width: 100%;
+        height: 100vh;
+        background-image: url(../css/IMG/banner_nosotros.png);
+        background-size: cover;
+        background-position: center;
+        background-position-x: center;
+        background-position-y: center;
+        background-attachment: fixed;
+        }
+        @media screen and (max-width:576px) {
+            .banner__nosotros {
+              background-image: url(../css/IMG/banner_nosotros2.png);
+            }
+        }
+        #cards {
+            margin: 1em;
+            padding: 1em;
+        }
+
+
+    footer {
+        background-color: var(--light);
+        height: 100%;
+        font-weight: 100%;
+        }

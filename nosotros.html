@@ -5,19 +5,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proyecto HB</title>
+    <link rel="stylesheet" href="./css/bootstrap.css">
     <link rel="stylesheet" href="./CSS/estilo.css">
 </head>
+<body >
 <body>
     <header>
         <nav class="navbar container">
             <a class="navbar__link" href="index.html">
                 <img src="./CSS/IMG/logo.png" alt="">
             </a>
+            <nav class="navbar navbar-expand-lg">
+               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="navbar-toggler-icon"></span>
+               </button>
+               <div class="collapse navbar-collapse" id="navbarSupportedContent">
+         
             <ul class="menu">
                 <li class="menu__item">
                     <a class="menu__link" href="index.html">Inicio</a>
                 </li>
-                <li class="menu__item">
+                <li class="menu__item"> 
                     <a class="menu__link" href="nosotros.html">Nosotros</a>
                 </li>
                 <li class="menu__item">
@@ -31,23 +39,70 @@
                 </li>
              </nav>
     </header>
+    
+   <!-- TOP -->
     <section>
-        <h1>H1</h1>
-        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fuga est id itaque exercitationem excepturi repellendus atque dolores delectus veritatis culpa natus hic, error, animi sit, mollitia vel velit esse minus?</p>
-    </section>
-    <img src="" alt="">
-    <section>
-        <h2>H2</h2>
-        <img src="" alt="">
-        <h2>H2</h2>
-        <img src="" alt="">
-    </section>
-    <section>
-        <img src="" alt="">
-    </section>
+        <section class="quienes_somos">
+            <h2 class="intro">Quiénes somos</h2>
+            <article class="col">
+                <h3 class="text-center">Conoce todo sobre nuestra empresa</h3>
+                <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi saepe est non aliquid, reiciendis omnis consequatur veritatis voluptas ipsam soluta voluptate nesciunt, eligendi excepturi, ad velit voluptatibus tempore expedita. Sed.</p>
+            
+              </article>
+           </section>
 
-    <footer>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quibusdam sequi facere voluptatem consequuntur veritatis minima corporis, animi natus tempora possimus quia laudantium, est voluptatibus illum necessitatibus atque ad impedit maiores!</p>    
+    <!-- BANNER  -->
+        <section class="nosotros">
+            <div class="banner__nosotros"></div>
+            <main class="container">
+        </section>
+     <!-- CARDS  -->
+        <div class="row row-cols-1 row-cols-md-2 g-4" id="cards">
+            <div class="col">
+              <div class="card">
+                <img src="../proyecto_1/css/IMG/card1.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">MISIÓN</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio similique, tenetur sequi, eaque alias maxime saepe debitis quasi dolorem nisi nostrum corporis odit doloremque incidunt quas exercitationem excepturi adipisci sapiente!</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../proyecto_1/css/IMG/card2.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">VISIÓN</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore rerum odit dolor quibusdam eius. Magni, quam necessitatibus assumenda ipsa odit corporis, alias iste repellendus nesciunt quaerat, rem neque dicta. Ipsa.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../proyecto_1/css/IMG/card3.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">VALORES</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur, perferendis in iusto molestiae autem modi cumque magnam vel enim distinctio sit maiores esse perspiciatis vitae possimus tempore repudiandae nemo nobis.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div class="card">
+                <img src="../proyecto_1/css/IMG/card4.png" class="card-img-top" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">PROYECCIÓN</h5>
+                  <p class="card-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum illo voluptatum itaque accusantium quasi, quod nemo nostrum nobis enim vitae ratione corporis. Doloribus exercitationem ipsum architecto officiis qui fugit provident!</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        <section>
+            <img src="../proyecto_1/css/IMG/nosotros_bottom.png" class="img-fluid" alt="Comencemos con tu proyecto"> 
+        </section>
+
+     <footer class="center">
+            <p class="text-center">Creado por Hugo Beas 🤘</p>
     </footer>
+    <script src="./css/JS/bootstrap.bundle.js"></script>
 </body>
 </html>
