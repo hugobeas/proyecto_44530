@@ -115,7 +115,7 @@ header {
 .banner1 {
 width: 100%;
 height: 100vh;
-background-image: url(../css/IMG/banner1.jpg);
+background-image: url(../IMG/banner1.jpg);
 background-size: cover;
 background-position: center;
 background-position-x: center;
@@ -124,7 +124,7 @@ background-attachment: fixed;
 }
 @media screen and (max-width:576px) {
     .banner1 {
-      background-image: url(../css/IMG/banner1_1.png);
+      background-image: url(../IMG/banner1_1.png);
     }
 }
 
@@ -151,7 +151,7 @@ background-attachment: fixed;
             padding: 1em;
             grid-column: span 6;
             grid-row: span 6;
-            background-image: url(../css/IMG/banner2_2.png);
+            background-image: url(../IMG/banner2_2.png);
         }  
     }
     @media screen and (max-width:576px) {
@@ -184,7 +184,7 @@ background-attachment: fixed;
     .banner__nosotros {
         width: 100%;
         height: 100vh;
-        background-image: url(../css/IMG/banner_nosotros.png);
+        background-image: url(../IMG/banner_nosotros.png);
         background-size: cover;
         background-position: center;
         background-position-x: center;
@@ -193,7 +193,7 @@ background-attachment: fixed;
         }
         @media screen and (max-width:576px) {
             .banner__nosotros {
-              background-image: url(../css/IMG/banner_nosotros2.png);
+              background-image: url(../IMG/banner_nosotros2.png);
             }
         }
         #cards {
