@@ -207,3 +207,28 @@ background-attachment: fixed;
         height: 100%;
         font-weight: 100%;
         }
+
+
+            /*GALERÍA*/
+
+            .banner_gal {
+                width: 100%;
+                height: 100vh;
+                background-image: url(../IMG/banner_galeria.png);
+                background-size: cover;
+                background-position: center;
+                background-position-x: center;
+                background-position-y: center;
+                background-attachment: fixed;
+                }
+                @media screen and (max-width:576px) {
+                    .banner_gal {
+                      background-image: url(../IMG/banner__galeria2.png);
+                    }
+                }
+        
+      @media screen and (max-width:576px) {
+             #h2_gal {
+              font-size: var(--sp-md);
+               }
+         }          
